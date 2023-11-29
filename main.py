@@ -65,4 +65,5 @@ usuarios_varios=[
 
 db.eliminar("Usuarios",where="nombre='bichota'")
 db.eliminar("Usuarios",where="dni=75369842")
+
 print(db.mostrar("Usuarios",type="objeto"))
